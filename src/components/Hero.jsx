@@ -21,10 +21,8 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className="text-[#915eff]">Markus
            </span></h1>
            {/* DESCRIPTION!!!!!!!!!!!!!!!!!!! OF ME!!!!!!!! */}
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>Collaborative and eager-to-learn undergraduate
-          <br className="sm:block hidden"/> student looking to utilize my knowledge in computer
-          <br className="sm:block hidden"/> science to gain experience through a Web development
-          <br className="sm:block hidden"/> or software development internship.
+          <p className={`${styles.heroSubText} mt-2 text-white-100`}>Undergraduate Student Studying Computer
+          <br className="sm:block hidden"/> Science at University of Nevada, Las Vegas 
             </p>
         </div>
       </div>
