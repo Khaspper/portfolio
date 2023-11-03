@@ -5,6 +5,7 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
+  //! TO CHANGE THE 3D MODEL
   const computer = useGLTF("./desktop_pc/scene.gltf");
 
   return (
@@ -34,21 +35,18 @@ const ComputersCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-  //   // Add a listener for changes to the screen size
+    // Check if we're on a mobile device
     const mediaQuery = window.matchMedia("(max-width: 500px)");
-
-  //   // Set the initial value of the `isMobile` state variable
+    // If we are in a device that's less than 500px
     setIsMobile(mediaQuery.matches);
 
-  //   // Define a callback function to handle changes to the media query
+    // Define a callback function to handle changes to the media query
     const handleMediaQueryChange = (event) => {
       setIsMobile(event.matches);
     };
 
-  //   // Add the callback function as a listener for changes to the media query
     mediaQuery.addEventListener("change", handleMediaQueryChange);
 
-  //   // Remove the listener when the component is unmounted
     return () => {
       mediaQuery.removeEventListener("change", handleMediaQueryChange);
     };
