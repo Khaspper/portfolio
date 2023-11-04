@@ -51,7 +51,7 @@ const About = () => {
         for coding and problem-solving. I've spent time teaching C++ and Python
         as a TA, and I've put together some neat projects that I'm 
         pretty proud of. Now, I'm on the lookout for an internship in 
-        Web Development or Software Development/ Engineering. I'm all about learning 
+        Web Development or Software Development / Engineering. I'm all about learning 
         by doing and eager to bring my skills to a team where I can keep 
         growing and make a tangible impact.
       </motion.p>

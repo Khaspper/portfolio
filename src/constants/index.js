@@ -116,7 +116,7 @@ import {
         "Assist students with understanding the assignments, debugging code, and applying concepts taught in lectures.",
         "Responsible for grading assignments and providing feedback. While assessing the students' work for correctness, style, and efficiency, especially in programming assignments.",
         "Contribute to the development of course materials, such as homework assignments, exams, or lecture notes.",
-        "Work with peers and the course instructor to coordinate on grading standards, discussing student progress, and sometimes mediating student concerns.",
+        "Work with other TAs and the Professor to coordinate on grading standards, discussing student progress, and sometimes mediating student concerns.",
       ],
     },
     {
@@ -128,7 +128,7 @@ import {
       points: [
         "Built a deep understanding of how different sorting algorithms work, including the logic behind merge sort, quick sort, heap sort, selection sort, insertion sort, and bubble sort. Strong knowledge of the time and space complexity of each algorithm.",
         "Knowledge of data structures, particularly arrays. Understand the role of trees in heap sort and how different data structures can impact performance.",
-        "Designing an interactive interface that allows users to control the sorting helps understand the user experience design and how to create an intuitive and responsive interface.",
+        "Designing an interactive interface that allows users to control the sorting speed and the array size. This helps the user experience design and how to create an intuitive and responsive interface.",
         "Practiced manipulating the DOM to visually represent the sorting process on the web page, updating the view as the sort progresses.",
       ],
     },
@@ -152,10 +152,10 @@ import {
       iconBg: "#E6DEDD",
       date: "Feb 2023 - Feb 2023",
       points: [
-        "Implementing conditions to trigger alerts based on specific criteria (e.g., price drops or increases).",
-        "Used automated scripting scheduling the script to run at regular intervals, possibly using cron jobs or Python's schedule library, which encouraged me to set up a system to send alerts through different channels and formatting messages in a user-friendly way.",
-        "Leveraging libraries for sending notifications, such as smtplib for emails or the twilio API for SMS.",
-        "Utilizing libraries like requests for HTTP requests or pandas for data analysis.",
+        "Implementing conditions to trigger alerts based on specific criteria like price drops or increases.",
+        "Used automated scripting scheduling the script to run at regular intervals, using Python's schedule library, which encouraged me to set up a system to send alerts through different channels and formatting messages in a user-friendly way.",
+        "Making use of libraries for sending notifications, such as \"smtplib\" for emails or the twilio API for SMS.",
+        "Utilizing libraries like requests for HTTP \"requests\" or pandas for data analysis.",
       ],
     },
   ];
