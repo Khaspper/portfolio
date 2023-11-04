@@ -4,17 +4,15 @@ import {
     creator,
     web,
     javascript,
-    typescript,
+    cpp,
     html,
     css,
     reactjs,
-    redux,
+    python,
     tailwind,
     nodejs,
-    mongodb,
     git,
     figma,
-    docker,
     stocks,
     csn,
     sorting,
@@ -61,6 +59,14 @@ import {
   
   const technologies = [
     {
+      name: "C++",
+      icon: cpp,
+    },
+    {
+      name: "Python",
+      icon: python,
+    },
+    {
       name: "HTML 5",
       icon: html,
     },
@@ -73,28 +79,16 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
     },
     {
       name: "Node JS",
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "Tailwind CSS",
+      icon: tailwind,
     },
     {
       name: "Three JS",
@@ -107,10 +101,6 @@ import {
     {
       name: "figma",
       icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
     },
   ];
   
