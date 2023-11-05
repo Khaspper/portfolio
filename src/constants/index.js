@@ -186,7 +186,7 @@ import {
     },
     {
       testimonial:
-      "You're my favorite person to work with.",
+      "You're my favorite person to work with! Always fun to work with and so hardworking!",
       name: "Welya Tan",
       destination: "Manager",
       company: "Kabuki, Las Vegas",

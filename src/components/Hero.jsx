@@ -22,7 +22,7 @@ const Hero = () => {
            </span></h1>
            {/* DESCRIPTION!!!!!!!!!!!!!!!!!!! OF ME!!!!!!!! */}
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>An undergraduate Student Studying Computer
-          <br className="sm:block hidden"/> Science at University of Nevada, Las Vegas 
+          <br className="sm:block hidden"/> Science at the University of Nevada, Las Vegas 
             </p>
         </div>
       </div>
