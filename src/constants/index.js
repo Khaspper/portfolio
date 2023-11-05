@@ -25,6 +25,9 @@ import {
     etch,
     portfolio,
     threejs,
+    kevin,
+    sam,
+    welya,
   } from "../assets";
   
   export const navLinks = [
@@ -167,27 +170,27 @@ import {
   const testimonials = [
     {
       testimonial:
-        "Fill this in later LOL",
-      name: "Some guy",
-      designation: "CFO",
-      company: "some thing",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Hey, I've gotta say, you nailed it as a TA! You cut through the tech talk and made those tough concepts clear as day you\'ve been a massive help, for real.",
+      name: "Kevin Hagood",
+      destination: "Prof.",
+      company: "College of Southern Nevada",
+      image: kevin,
     },
     {
       testimonial:
-        "I LOVE WOMEN!!!",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "I must say, your exceptional grasp of computer science theories and concepts and your ability to apply them creatively in the coding assignments is really impressive.",
+      name: "Sam Black",
+      destination: "Prof.",
+      company: "University of Nevada, Las Vegas",
+      image: sam,
     },
     {
       testimonial:
-        "MARK IS SO COOL WHAAAAT",
-      name: "Patrick Park",
-      designation: "CTO",
-      company: "rawrXD",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "You're my favorite person to work with.",
+      name: "Welya Tan",
+      destination: "Manager",
+      company: "Kabuki, Las Vegas",
+      image: welya,
     },
   ];
   

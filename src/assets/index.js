@@ -32,11 +32,16 @@ import workoutTracker from "./workoutTracker.png";
 import portfolio from "./portfolio.png";
 import calculator from "./calculator.png";
 import etch from "./etch.png";
+import kevin from "./kevin.png";
+import sam from "./sam.png";
+import welya from "./welya.png";
 
 export {
   monster_logo,
   backend,
   creator,
+  kevin,
+  sam,
   mobile,
   web,
   github,
@@ -65,4 +70,5 @@ export {
   calculator,
   etch,
   portfolio,
+  welya,
 };
