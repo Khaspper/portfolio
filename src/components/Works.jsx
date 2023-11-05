@@ -1,12 +1,12 @@
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import { github } from "../assets";
+import { github, live_demo } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
-const ProjectCard = ({ index, name, description, tags, image, source_code }) => {
+const ProjectCard = ({ index, name, description, tags, image, source_code_link, live_link }) => {
   return(
     <motion.div variants={fadeIn("up", "spring", index * .5, 0.75)}>
       <Tilt
@@ -23,10 +23,23 @@ const ProjectCard = ({ index, name, description, tags, image, source_code }) => 
             alt={name}
             className="w-full h-full object-cover rounded-2xl"
           />
-
+          
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+              {/* The bottom is for a LIVE URL!!!!! */}
+              {live_link && (
+              <div
+                onClick={() => window.open(live_link, "_blank")}
+                className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              >
+                <img 
+                  src={live_demo}
+                  alt="live demo"
+                  className="w-1/2 h-1/2 object-contain"
+                />
+              </div>
+            )}
             <div
-              onClick={() => window.open(source_code, "_blank")}
+              onClick={() => window.open(source_code_link, "_blank")}
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img 
@@ -35,17 +48,6 @@ const ProjectCard = ({ index, name, description, tags, image, source_code }) => 
                 className="w-1/2 h-1/2 object-contain"
               />
             </div>
-            {/* The bottom is for a LIVE URL!!!!! */}
-            {/* <div
-              onClick={() => window.open(source_code, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-            >
-              <img 
-                src={github}
-                alt="github"
-                className="w-1/2 h-1/2 object-contain"
-              />
-            </div> */}
           </div>
         </div>
 
@@ -70,7 +72,7 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>My work</p>
+        <p className={`${styles.sectionSubText} `}>My work... more on my GitHub</p>
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
       </motion.div>
 

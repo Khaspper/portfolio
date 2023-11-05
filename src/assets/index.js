@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import live_demo from "./live_demo.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -25,8 +26,12 @@ import csn from "./company/csn.png";
 import sorting from "./company/sorting.png";
 
 import sortingvisualizer from "./sortingvisualizer.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import stock_news from "./stock_news.png";
+import rps from "./rps.png";
+import workoutTracker from "./workoutTracker.png";
+import portfolio from "./portfolio.png";
+import calculator from "./calculator.png";
+import etch from "./etch.png";
 
 export {
   monster_logo,
@@ -35,11 +40,13 @@ export {
   mobile,
   web,
   github,
+  live_demo,
   menu,
   close,
   css,
   figma,
   git,
+  rps,
   html,
   javascript,
   nodejs,
@@ -53,6 +60,9 @@ export {
   csn,
   sorting,
   sortingvisualizer,
-  jobit,
-  tripguide,
+  workoutTracker,
+  stock_news,
+  calculator,
+  etch,
+  portfolio,
 };

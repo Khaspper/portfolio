@@ -8,6 +8,8 @@ import {
     html,
     css,
     reactjs,
+    rps,
+    workout,
     python,
     tailwind,
     nodejs,
@@ -16,10 +18,12 @@ import {
     stocks,
     csn,
     sorting,
-    workout,
+    workoutTracker,
     sortingvisualizer,
-    jobit,
-    tripguide,
+    calculator,
+    stock_news,
+    etch,
+    portfolio,
     threejs,
   } from "../assets";
   
@@ -163,15 +167,15 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
+        "Fill this in later LOL",
+      name: "Some guy",
       designation: "CFO",
-      company: "Acme Co",
+      company: "some thing",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
+        "I LOVE WOMEN!!!",
       name: "Chris Brown",
       designation: "COO",
       company: "DEF Corp",
@@ -179,15 +183,36 @@ import {
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
+        "MARK IS SO COOL WHAAAAT",
+      name: "Patrick Park",
       designation: "CTO",
-      company: "456 Enterprises",
+      company: "rawrXD",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
   
   const projects = [
+    {
+      name: "Portfolio",
+      description:
+        "Designing and developing a personalized web space to showcase my professional skills, projects, and experiences.",
+      tags: [
+        {
+          name: "ThreeJS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "TailwindCSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Framer Motion",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: portfolio,
+      source_code_link: "https://github.com/Khaspper/portfolio",
+    },
     {
       name: "Sorting Visualizer",
       description:
@@ -207,49 +232,116 @@ import {
         },
       ],
       image: sortingvisualizer,
-      source_code_link: "https://srtingvisualizer.netlify.app",
+      source_code_link: "https://github.com/Khaspper/sorting_visualizer",
+      live_link: "https://srtingvisualizer.netlify.app",
     },
     {
-      name: "Job IT",
+      name: "Calculator",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that provides users with a tool to perform arithmetic operations and mathematical calculations directly within the web page.",
       tags: [
         {
-          name: "react",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "JavaScript",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: calculator,
+      source_code_link: "https://github.com/Khaspper/calculator",
+      live_link: "https://khaspper.github.io/calculator/",
     },
     {
-      name: "Trip Guide",
+      name: "Etch-a-Sketch",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "The Etch-a-Sketch project is an interactive web-based application that emulates the classic drawing toy, allowing users to create pixel art using mouse movements.",
       tags: [
         {
-          name: "nextjs",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "JavaScript",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: etch,
+      source_code_link: "https://github.com/Khaspper/etch-a-sketch",
+      live_link: "https://khaspper.github.io/etch-a-sketch/",
+    },
+    {
+      name: "Pokemon Rock Paper Scissors",
+      description:
+        "This project is a simple implementation of the classic game \"Rock Paper Scissors\" with a twist as part of The Odin Project's curriculum. It's a browser-based game that allows users to play against the computer.",
+      tags: [
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: rps,
+      source_code_link: "https://github.com/Khaspper/rps-odin/blob/main/README.md",
+      live_link: "https://khaspper.github.io/rps-odin/",
+    },
+    {
+      name: "Workout Tracker",
+      description:
+        "The Workout Tracker is a Python-based application that streamlines the exercise logging process through an intuitive user interface and robust data integration with Nutritionix and Sheety APIs.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Nutritionix API",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Sheety API",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: workoutTracker,
+      source_code_link: "https://github.com/Khaspper/Udemy-Python-Projects/blob/master/Workout_tracker/main.py",
+    },
+    {
+      name: "Stock News SMS",
+      description:
+        "An automated system that provides daily stock price updates and relevant news articles via SMS, enhancing decision-making for investors.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Twilio API",
+          color: "green-text-gradient",
+        },
+        {
+          name: "NewsAPI",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: stock_news,
+      source_code_link: "https://github.com/Khaspper/Udemy-Python-Projects/blob/master/stock-news/main.py",
     },
   ];
   
