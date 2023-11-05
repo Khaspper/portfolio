@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import monster_logo from "./monster_logo.jpeg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -24,12 +24,12 @@ import workout from "./company/workout.png";
 import csn from "./company/csn.png";
 import sorting from "./company/sorting.png";
 
-import carrent from "./carrent.png";
+import sortingvisualizer from "./sortingvisualizer.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
-  logo,
+  monster_logo,
   backend,
   creator,
   mobile,
@@ -52,7 +52,7 @@ export {
   workout,
   csn,
   sorting,
-  carrent,
+  sortingvisualizer,
   jobit,
   tripguide,
 };

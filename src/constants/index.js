@@ -17,7 +17,7 @@ import {
     csn,
     sorting,
     workout,
-    carrent,
+    sortingvisualizer,
     jobit,
     tripguide,
     threejs,
@@ -189,25 +189,25 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Sorting Visualizer",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A Visualizer that graphically represents the process of 6 different sorting algorithm organizing data, using bars and colors to illustrate the algorithm's steps and how it arranges elements into a sorted order.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "JavaScript",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "css",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: sortingvisualizer,
+      source_code_link: "https://srtingvisualizer.netlify.app",
     },
     {
       name: "Job IT",
